@@ -7,3 +7,28 @@ body {
   margin: 0; /* Remova a margem padrão do body */
   padding: 0; /* Remova o padding padrão do body */
 }
+
+.btn-custom-purple {
+  color: #fff;
+  background-color: #800080; /* Cor roxa */
+  border-color: #800080; /* Cor da borda roxa */
+}
+
+.btn-custom-purple:hover {
+  background-color: #6a006a; /* Cor roxa mais escura quando hover */
+  border-color: #6a006a; /* Cor da borda roxa mais escura quando hover */
+}
+
+.btn-outline-custom-purple {
+  color: #800080; /* Cor roxa */
+  border-color: #800080; /* Cor da borda roxa */
+}
+
+.btn-outline-custom-purple:hover {
+  background-color: #800080; /* Cor de fundo roxa quando hover */
+  border-color: #800080; /* Cor da borda roxa quando hover */
+}
+
+.text-custom-purple {
+  color: #800080; /* Cor roxa */
+}
