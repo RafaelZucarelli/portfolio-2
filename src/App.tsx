@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faGithub, faGit, faJs, faReact,  faCss3  } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faGithub, faGit, faJs, faReact,  faCss3} from '@fortawesome/free-brands-svg-icons';
 
 const DigitarTexto = () => {
   const [texto, setTexto] = useState('');
@@ -127,9 +127,41 @@ const DigitarTexto = () => {
         </div>
       </div>
     </div>
+    </section>
+    
+    <section className="d-flex justify-content-center align-items-center" style={{ backgroundColor: 'black' }}>
+  
+      <div className="container align-self-center">
+      <div className="row">
+        <div className="col-md-12 text-center text-light text-uppercase text-justify" style={{ lineHeight: '1.5' }}>
+        <h1 className='display-8 mb-4 py-4'>Educação</h1>
+        </div>
+            <ul className="education">
+                <li className="item">
+                    <div className="year">
+                        <span><i className="fa-solid fa-briefcase"></i></span>
+                        <p>2021 - Presente</p>
+                    </div>
+                    
+                    <h5>Graduação - Sistemas de Informação <span>- Faculdade Instituto Superior do Litoral do Paraná </span></h5>
+                </li>
 
+                <li className="item">
+                    <div className="year"> 
+                    <span><i className="fa-solid fa-briefcase"></i></span>
+                        <p>2024 - presente</p>
+                    </div>
+
+                    <h5>Curso em Desenvolvimento Web <span>- Udemy</span></h5>
+                </li>
+            </ul>
+            
+            </div>
+            </div>
+            
       </section>
 
+      
 
       {/* Adicione mais seções conforme necessário */}
     </>
