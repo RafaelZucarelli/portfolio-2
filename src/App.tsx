@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faGithub, faGit, faJs, faReact,  faCss3} from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faGithub, faGit, faJs, faReact,  faCss3 } from '@fortawesome/free-brands-svg-icons';
+import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+
 
 const DigitarTexto = () => {
   const [texto, setTexto] = useState('');
@@ -137,31 +139,20 @@ const DigitarTexto = () => {
         <h1 className='display-8 mb-4 py-4'>Educação</h1>
         </div>
             <ul className="education">
-                <li className="item">
                     <div className="year">
-                        <span><i className="fa-solid fa-briefcase"></i></span>
-                        <p>2021 - Presente</p>
+                        <p><FontAwesomeIcon icon={faBriefcase} /> 2021 - Presente</p>
                     </div>
-                    
-                    <h5>Graduação - Sistemas de Informação <span>- Faculdade Instituto Superior do Litoral do Paraná </span></h5>
-                </li>
-
-                <li className="item">
+                    <h5> Graduação - Sistemas de Informação <span>- Faculdade Instituto Superior do Litoral do Paraná </span></h5>
                     <div className="year"> 
                     <span><i className="fa-solid fa-briefcase"></i></span>
-                        <p>2024 - presente</p>
+                        <p><FontAwesomeIcon icon={faBriefcase} /> 2024 - presente</p>
                     </div>
-
                     <h5>Curso em Desenvolvimento Web <span>- Udemy</span></h5>
-                </li>
             </ul>
-            
             </div>
             </div>
             
       </section>
-
-      
 
       {/* Adicione mais seções conforme necessário */}
     </>
