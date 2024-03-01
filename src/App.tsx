@@ -142,12 +142,22 @@ const DigitarTexto = () => {
         <h4 className='display-8 mb-4 py-4 text-center'><strong>Educação</strong></h4>
         </div>
             <ul className="education">
-                    <div className="year text-light">
-                        <p><FontAwesomeIcon icon={faBriefcase} /> - 2021 - Presente</p>
-                    </div>
+            <div className="year text-light"> 
+                    <p>
+                    <span className="bullet icon-purple">
+                        <FontAwesomeIcon icon={faBriefcase} style={{ fontSize: '15px' }}/>
+                        </span> 
+                         2021 - Presente
+                        </p>
+                        </div>
                     <h5 className='text-light'> Graduação - Sistemas de Informação <span>- Faculdade Instituto Superior do Litoral do Paraná </span></h5>
                     <div className="year text-light"> 
-                        <p><FontAwesomeIcon icon={faBriefcase} /> - 2024 - presente</p>
+                    <p>
+                    <span className="bullet icon-purple">
+                      <FontAwesomeIcon icon={faBriefcase} style={{ fontSize: '15px' }} />
+                    </span>
+                    - 2024 - Presente
+                  </p>
                     </div>
                     <h5 className='text-light'>Curso em Desenvolvimento Web <span>- Udemy</span></h5>
             </ul>
@@ -174,7 +184,6 @@ const DigitarTexto = () => {
 
     
 
-          
         
     </>
   );

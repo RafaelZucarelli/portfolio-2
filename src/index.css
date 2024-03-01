@@ -30,3 +30,23 @@ body {
 .text-justify {
   text-align: justify !important;
 }
+
+.icon-purple {
+  color: #8a2be2;
+}
+
+.bullet {
+  display: inline-block;
+  width: 30px; /* Largura do círculo */
+  height: 30px; /* Altura do círculo */
+  background-color: purple;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px; /* Centraliza o ícone verticalmente */
+  margin-right: 10px; /* Espaço entre o círculo e o texto */
+}
+
+.icon-purple {
+  color: white;
+  font-size: 18px; /* Tamanho do ícone */
+}
