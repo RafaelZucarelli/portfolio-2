@@ -56,86 +56,77 @@ const DigitarTexto = () => {
         </div>
       </section>
 
-      <section id="sobre-mim" className="d-flex justify-content-center align-items-center vh-100" style={{ backgroundColor: 'black' }}>
-        <div className="container align-self-center">
-          <div className="row">
-            <div className="col-md-12 text-center text-light text-uppercase text=justify" style={{ lineHeight: '1.5' }}>
-              <h1 className=''>SOBRE <span style={{ color: 'purple' }}>MIM</span></h1>
-              <p className='lead mb-6'> 
-                  <strong>
-                    Desde muito jovem, fui atraído pela tecnologia, e foi por essa razão que escolhi ingressar na área de Sistemas de Informação. No entanto, desde o início, sempre ansiava por explorar mais profundamente o vasto e intrigante mundo da programação.      
-                    Decidi transformar esse sonho em realidade, embarcando em uma jornada de
-                    estudos dedicados ao Desenvolmento Web: <span>HTML, CSS, JavaScript e React</span>.
-                    </strong>
-                </p>
-
-                <p className='lead mb-6'>
-                  
-                  <strong>
-                    Com uma visão de longo prazo, no momento curso uma graduação em Sistemas de Informação e também,
-                    estou imerso em cursos de Desenvolvimento Web para aprimorar ainda mais minhas
-                    habilidades. Essa trajetória reflete meu comprometimento e determinação na transição de carreira
-                    para a área de Desenvolvimento FrontEnd, contribuindo com inovação e criatividade para a vanguarda
-                    da tecnologia.
-                    </strong>
-                </p >
-
-                <p className='lead'>
-                  <strong>
-                    Para além do código, e nos meus momentos de lazer, desfruto de
-                    atividades como jogar video-game, mergulhar em boas leituras e apreciar filmes e séries.
-                  </strong>
-                </p>
-                <a href="" className="btn btn-lg btn-custom-purple">
+      <section id="sobre-mim" className="d-flex justify-content-center align-items-center vh-150" style={{ backgroundColor: 'black' }}>
+      <div className="container text-center mt-5 text-light">
+      <div className="row justify-content-center">
+        <div className="col-md-8">
+          <h1 className="mb-4 text-light">SOBRE <span style={{ color: 'purple' }}>MIM</span></h1>
+          <p className="lead  text-justify">
+            <strong>
+            Desde muito jovem, fui atraído pela tecnologia, e foi por essa razão que escolhi ingressar na área de Sistemas de Informação. No entanto, desde o início, sempre ansiava por explorar mais profundamente o vasto e intrigante mundo da programação. Decidi transformar esse sonho em realidade, embarcando em uma jornada de estudos dedicados ao Desenvolvimento Web: <span>HTML, CSS, JavaScript e React</span>.
+            </strong>
+          </p>
+          <p className="lead  text-justify">
+          <strong>
+            Com uma visão de longo prazo, no momento curso uma graduação em Sistemas de Informação e também, estou imerso em cursos de Desenvolvimento Web para aprimorar ainda mais minhas habilidades. Essa trajetória reflete meu comprometimento e determinação na transição de carreira para a área de Desenvolvimento FrontEnd, contribuindo com inovação e criatividade para a vanguarda da tecnologia.
+            </strong>
+          </p>
+          <p className="lead  text-justify">
+          <strong>
+            Para além do código, e nos meus momentos de lazer, desfruto de atividades como jogar video-game, mergulhar em boas leituras e apreciar filmes e séries.
+            </strong>
+          </p>
+          <a href="" className="btn btn-md btn-custom-purple">
                   BAIXAR CV
                 </a>
-            </div>
-          </div>
         </div>
+      </div>
+    </div>
       </section>
 
-      <section className="d-flex justify-content-center align-items-center" style={{ backgroundColor: 'black' }}>
+      <section className="d-flex justify-content-center align-items-center vh-100" style={{ backgroundColor: 'black' }}>
   
       <div className="container align-self-center">
       <div className="row">
         <div className="col-md-12 text-center text-light text-uppercase text-justify" style={{ lineHeight: '1.5' }}>
-          <h1 className='display-7 mb-4 py-4'>MINHAS HABILIDADES</h1>
-          <div className="row skills-container">
+          <h4 className='mb-4 py-4 text-center'><strong>MINHAS HABILIDADES</strong></h4>
+          <div className="row skills-container text-center">
             <div className="col-md-4">
               <div className="technology">
                 <FontAwesomeIcon icon={faReact} size="3x" />
               </div>
-              <p className="text-center">React</p>
+              <p>React</p>
             </div>
             <div className="col-md-4">
               <div className="technology">
                 <FontAwesomeIcon icon={faJs} size="3x" />
+                <p >JavaScript</p>
               </div>
-              <p className="text-center">JavaScript</p>
+              
             </div>
             <div className="col-md-4">
               <div className="technology">
                 <FontAwesomeIcon icon={faCss3} size="3x" />
               </div>
-              <p className="text-center">CSS</p>
+              <p>CSS</p>
             </div>
             <div className="col-md-4">
               <div className="technology">
                 <FontAwesomeIcon icon={faHtml5} size="3x" />
               </div>
-              <p className="text-center">HTML</p>
+              <p>HTML</p>
             </div>
             <div className="col-md-4">
               <div className="technology">
                 <FontAwesomeIcon icon={faGithub} size="3x" />
               </div>
-              <p className="text-center">GitHub</p>
+              <p>GitHub</p>
             </div>
             <div className="col-md-4">
               <div className="technology">
                 <FontAwesomeIcon icon={faGit} size="3x" />
               </div>
-              <p className="text-center">Git</p>
+              <p >Git</p>
             </div>
           </div>
         </div>
@@ -148,15 +139,15 @@ const DigitarTexto = () => {
       <div className="container align-self-center">
       <div className="row">
         <div className="col-md-12 text-center text-light text-uppercase text-justify" style={{ lineHeight: '1.5' }}>
-        <h1 className='display-8 mb-4 py-4'>Educação</h1>
+        <h4 className='display-8 mb-4 py-4 text-center'><strong>Educação</strong></h4>
         </div>
             <ul className="education">
                     <div className="year text-light">
-                        <p><FontAwesomeIcon icon={faBriefcase} /> 2021 - Presente</p>
+                        <p><FontAwesomeIcon icon={faBriefcase} /> - 2021 - Presente</p>
                     </div>
                     <h5 className='text-light'> Graduação - Sistemas de Informação <span>- Faculdade Instituto Superior do Litoral do Paraná </span></h5>
                     <div className="year text-light"> 
-                        <p><FontAwesomeIcon icon={faBriefcase} /> 2024 - presente</p>
+                        <p><FontAwesomeIcon icon={faBriefcase} /> - 2024 - presente</p>
                     </div>
                     <h5 className='text-light'>Curso em Desenvolvimento Web <span>- Udemy</span></h5>
             </ul>

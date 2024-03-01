@@ -1,11 +1,6 @@
 /* global.css */
 body {
   background-image: url("./src/assets/images/background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0; /* Remova a margem padrão do body */
-  padding: 0; /* Remova o padding padrão do body */
 }
 
 .btn-custom-purple {
@@ -31,4 +26,7 @@ body {
 
 .text-custom-purple {
   color: #800080; /* Cor roxa */
+}
+.text-justify {
+  text-align: justify !important;
 }
