@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faGithub, faGit, faJs, faReact, faCss3 } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -178,6 +179,26 @@ const DigitarTexto = () => {
                 </div>
             </div>
         </div>
+      </div>
+    </div>
+    </section>
+
+    <section className="d-flex justify-content-center align-items-center vh-100" style={{ backgroundColor: 'black' }}>
+      <div className="container align-self-center">
+      <div className="row">
+        <div className="col-md-12 text-center text-light text-uppercase text-justify" style={{ lineHeight: '1.5' }}>
+          <h1 className='mb-4 py-4 text-center'><strong>ME <span style={{ color: '#8a2be2' }}>ENCONTRE</span> </strong></h1>
+        </div>
+        <div className="get-in-touch text-center">
+                <p className="text">Sinta-se à vontade para entrar em contato comigo. </p>
+                
+                
+                <div className="email-container">
+                
+                    <p>Me envie um <a href="mailto:zucarelli83@gmail.com" ><FontAwesomeIcon icon={faEnvelope}/>  e-mail</a>.
+                    </p>
+                </div>
+            </div>
       </div>
     </div>
     </section>
