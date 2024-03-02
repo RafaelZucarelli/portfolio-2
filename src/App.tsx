@@ -76,9 +76,9 @@ const DigitarTexto = () => {
             Para além do código, e nos meus momentos de lazer, desfruto de atividades como jogar video-game, mergulhar em boas leituras e apreciar filmes e séries.
             </strong>
           </p>
-          <a href="" className="btn btn-md btn-custom-purple">
-                  BAIXAR CV
-                </a>
+          <a href="/src/assets/Rafael Alves Zucarelli - CV (1).pdf" download className="btn btn-md btn-custom-purple">
+            BAIXAR CV
+          </a>
         </div>
       </div>
     </div>
@@ -150,10 +150,10 @@ const DigitarTexto = () => {
                          2021 - Presente
                         </p>
                         </div>
-                    <h5 className='text-light'> Graduação - Sistemas de Informação <span>- Faculdade Instituto Superior do Litoral do Paraná </span></h5>
-                    <div className="year text-light"> 
+                    <h5 className='text-light mb-4'> Graduação - Sistemas de Informação <span>- Faculdade Instituto Superior do Litoral do Paraná </span></h5>
+                    <div className="year text-light "> 
                     <p>
-                    <span className="bullet icon-purple">
+                    <span className="bullet icon-purple mb-4">
                       <FontAwesomeIcon icon={faBriefcase} style={{ fontSize: '15px' }} />
                     </span>
                     - 2024 - Presente
