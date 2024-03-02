@@ -61,7 +61,7 @@ const DigitarTexto = () => {
       <div className="container text-center mt-5 text-light">
       <div className="row justify-content-center">
         <div className="col-md-8">
-          <h1 className="mb-4 text-light">SOBRE <span style={{ color: '#8a2be2'}}>MIM</span></h1>
+          <h1 className="mb-4 text-light" style={{ fontSize: '50px' }}>SOBRE <span style={{ color: '#8a2be2'}}>MIM</span></h1>
           <p className="lead  text-justify">
             <strong>
             Desde muito jovem, fui atraído pela tecnologia, e foi por essa razão que escolhi ingressar na área de Sistemas de Informação. No entanto, desde o início, sempre ansiava por explorar mais profundamente o vasto e intrigante mundo da programação. Decidi transformar esse sonho em realidade, embarcando em uma jornada de estudos dedicados ao Desenvolvimento Web: <span>HTML, CSS, JavaScript e React</span>.
@@ -170,7 +170,7 @@ const DigitarTexto = () => {
       <div className="container align-self-center">
       <div className="row">
         <div className="col-md-12 text-center text-light text-uppercase text-justify" style={{ lineHeight: '1.5' }}>
-          <h1 className='mb-4 py-4 text-center'><strong>MEU <span style={{ color: '#8a2be2' }}>PORTFÓLIO</span> </strong></h1>
+          <h1 className='mb-4 py-4 text-center' style={{ fontSize: '50px' }}><strong>MEU <span style={{ color: '#8a2be2' }}>PORTFÓLIO</span> </strong></h1>
           <div className='container align-self-center'>
                 <div className="project col-md-12 text-center">
                     <a href="https://github.com/RafaelZucarelli/nlw-expert" target="_blank">
@@ -187,10 +187,10 @@ const DigitarTexto = () => {
       <div className="container align-self-center">
       <div className="row">
         <div className="col-md-12 text-center text-light text-uppercase text-justify" style={{ lineHeight: '1.5' }}>
-          <h1 className='mb-4 py-4 text-center'><strong>ME <span style={{ color: '#8a2be2' }}>ENCONTRE</span> </strong></h1>
+        <h1 className='mb-4 py-4 text-center' style={{ fontSize: '60px' }}><strong>ME <span style={{ color: '#8a2be2' }}>ENCONTRE</span> </strong></h1>
         </div>
-        <div className="get-in-touch text-center">
-                <p className="text">Sinta-se à vontade para entrar em contato comigo. </p>
+        <div className="get-in-touch text-light text-center">
+                <p className="">Sinta-se à vontade para entrar em contato comigo. </p>
                 
                 
                 <div className="email-container">
