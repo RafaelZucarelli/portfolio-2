@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faGithub, faGit, faJs, faReact, faCss3 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import Footer from './components/Footer';
 
 
 const DigitarTexto = () => {
@@ -32,6 +33,7 @@ const DigitarTexto = () => {
     const aboutSection = document.getElementById('sobre-mim');
     aboutSection.scrollIntoView({ behavior: 'smooth' });
   };
+
 
   return (
     <>
@@ -90,9 +92,9 @@ const DigitarTexto = () => {
       <div className="container align-self-center">
       <div className="row">
         <div className="col-md-12 text-center text-light text-uppercase text-justify" style={{ lineHeight: '1.5' }}>
-          <h4 className='mb-4 py-4 text-center'><strong>MINHAS HABILIDADES</strong></h4>
+          <h4 className='mb-2 py-4 text-center mt-4'><strong>MINHAS HABILIDADES</strong></h4>
           <div className="row skills-container text-center">
-            <div className="col-md-4"> 
+            <div className="col-md-4 mb-4"> 
               <div className="technology">
                 <FontAwesomeIcon icon={faReact} size="3x" />
               </div>
@@ -140,7 +142,7 @@ const DigitarTexto = () => {
       <div className="container align-self-center">
       <div className="row">
         <div className="col-md-12 text-center text-light text-uppercase text-justify" style={{ lineHeight: '1.5' }}>
-        <h4 className='display-8 mb-4 py-4 text-center'><strong>Educação</strong></h4>
+        <h4 className='display-8 mb-4 py-4 text-center mt-4'><strong>Educação</strong></h4>
         </div>
             <ul className="education">
             <div className="year text-light"> 
@@ -191,17 +193,24 @@ const DigitarTexto = () => {
         </div>
         <div className="get-in-touch text-light text-center">
                 <p className="">Sinta-se à vontade para entrar em contato comigo. </p>
-                
-                
                 <div className="email-container">
-                
-                    <p>Me envie um <a href="mailto:zucarelli83@gmail.com" ><FontAwesomeIcon icon={faEnvelope}/>  e-mail</a>.
+                    <p>ME ENVIE UM <a href="mailto:zucarelli83@gmail.com" ><FontAwesomeIcon icon={faEnvelope}/>  e-mail</a>.
                     </p>
                 </div>
+                
+              
+
+
             </div>
       </div>
+      
     </div>
     </section>
+
+    <Footer />
+
+   
+
 
     
 
