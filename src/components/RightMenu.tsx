@@ -6,6 +6,25 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const RightMenu = () => {
+  const scrollToHomeSection = () => {
+    const aboutSection = document.getElementById("home");
+    aboutSection.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const scrollToAboutSection = () => {
+    const aboutSection = document.getElementById("sobre-mim");
+    aboutSection.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const scrollToPortfolioSection = () => {
+    const aboutSection = document.getElementById("portfolio");
+    aboutSection.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const scrollToContatoSection = () => {
+    const aboutSection = document.getElementById("contato");
+    aboutSection.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div
       style={{
@@ -17,6 +36,7 @@ const RightMenu = () => {
       }}
     >
       <button
+        onClick={scrollToHomeSection}
         className="btn btn-custom-purple btn-active mb-5 d-block rounded-circle"
         style={{ width: "50px", height: "50px" }}
       >
@@ -24,18 +44,21 @@ const RightMenu = () => {
       </button>
 
       <button
+        onClick={scrollToAboutSection}
         className="btn btn-custom-purple mb-5 d-block rounded-circle"
         style={{ width: "50px", height: "50px" }}
       >
         <FontAwesomeIcon icon={faUser} />
       </button>
       <button
+        onClick={scrollToPortfolioSection}
         className="btn btn-custom-purple mb-5 d-block rounded-circle"
         style={{ width: "50px", height: "50px" }}
       >
         <FontAwesomeIcon icon={faBriefcase} style={{ fontSize: "15px" }} />
       </button>
       <button
+        onClick={scrollToContatoSection}
         className="btn btn-custom-purple mb-5 d-block rounded-circle"
         style={{ width: "50px", height: "50px" }}
       >

@@ -43,7 +43,7 @@ const DigitarTexto = () => {
     <>
       <RightMenu />
       <section
-        id="servicos"
+        id="home"
         className="caixa d-flex justify-content-center align-items-center vh-100"
       >
         <div className="container">
@@ -132,6 +132,7 @@ const DigitarTexto = () => {
       <Projects />
 
       <section
+        id="contato"
         className="d-flex justify-content-center align-items-center vh-100"
         style={{ backgroundColor: "black" }}
       >
