@@ -19,12 +19,20 @@ const Projects: React.FC = () => {
               </strong>
             </h1>
             <div className="container align-self-center">
-              <div className="project col-md-12 text-center">
+              <div className="project col-md-6 text-center">
                 <a
                   href="https://github.com/RafaelZucarelli/nlw-expert"
                   target="_blank"
                 >
                   <img src="" alt="Gif da Aplicação de anotações" />
+                </a>
+              </div>
+              <div className="project col-md-6 text-center">
+                <a
+                  href="https://github.com/RafaelZucarelli/PROJETO-FINANS"
+                  target="_blank"
+                >
+                  <img src="" alt="Gif do Projeto FINANS" />
                 </a>
               </div>
             </div>
