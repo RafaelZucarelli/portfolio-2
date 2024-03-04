@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
+
 import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
 import Education from "./components/Education";
