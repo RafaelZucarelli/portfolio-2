@@ -5,18 +5,28 @@ body {
 
 .btn-custom-purple {
   color: #fff;
-  background-color: #800080; /* Cor roxa */
-  border-color: #800080; /* Cor da borda roxa */
+  background-color: rgba(162, 0, 255, 0.5); /* Cor roxa */
+  border-color: rgba(162, 0, 255, 0.5); /* Cor da borda roxa */
 }
 
 .btn-custom-purple:hover {
-  background-color: #6a006a; /* Cor roxa mais escura quando hover */
-  border-color: #6a006a; /* Cor da borda roxa mais escura quando hover */
+  background-color: rgba(
+    162,
+    0,
+    255,
+    0.5
+  ); /* Cor roxa mais escura quando hover */
+  border-color: rgba(
+    162,
+    0,
+    255,
+    0.5
+  ); /* Cor da borda roxa mais escura quando hover */
 }
 
 .btn-outline-custom-purple {
-  color: #800080; /* Cor roxa */
-  border-color: #800080; /* Cor da borda roxa */
+  color: rgba(162, 0, 255, 0.5); /* Cor roxa */
+  border-color: rgba(162, 0, 255, 0.5); /* Cor da borda roxa */
 }
 
 .btn-outline-custom-purple:hover {
@@ -49,4 +59,10 @@ body {
 .icon-purple {
   color: white;
   font-size: 18px; /* Tamanho do ícone */
+}
+
+/* Estilo para ocultar a barra de rolagem horizontal */
+html,
+body {
+  overflow-x: hidden;
 }

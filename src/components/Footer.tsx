@@ -1,13 +1,15 @@
-import React from 'react';
+import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className='text-center' style={{ backgroundColor: 'black' }}>
-      <div>
-        <p>Desenvolvido com por Rafael Alves Zucarelli.</p>
-      </div>
-    </footer>
+    <div className="row">
+      <footer className="text-center" style={{ backgroundColor: "black" }}>
+        <div>
+          <p>Desenvolvido com por Rafael Alves Zucarelli.</p>
+        </div>
+      </footer>
+    </div>
   );
-}
+};
 
 export default Footer;

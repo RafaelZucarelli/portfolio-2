@@ -15,7 +15,8 @@ import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
-import BottonMoreForMe from "./BottonMoreForMe";
+import BottonMoreForMe from "./components/BottonMoreForMe";
+import RightMenu from "./components/RightMenu";
 
 const DigitarTexto = () => {
   const [texto, setTexto] = useState("");
@@ -40,6 +41,7 @@ const DigitarTexto = () => {
 
   return (
     <>
+      <RightMenu />
       <section
         id="servicos"
         className="caixa d-flex justify-content-center align-items-center vh-100"

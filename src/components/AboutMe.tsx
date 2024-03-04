@@ -1,13 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
+import { useSpring, animated } from "react-spring";
+import { useInView } from "react-intersection-observer";
 
 const ForMe: React.FC = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const { ref, inView } = useInView();
+
+  const animation = useSpring({
+    opacity: isVisible ? 1 : 0,
+    transform: isVisible ? "translateY(0)" : "translateY(50px)",
+    config: {
+      tension: 120,
+      friction: 10,
+    },
+  });
+
+  if (inView && !isVisible) {
+    setIsVisible(true);
+  }
+
   return (
     <section
       id="sobre-mim"
       className="d-flex justify-content-center align-items-center vh-150"
       style={{ backgroundColor: "black" }}
+      ref={ref}
     >
-      <div className="container text-center mt-5 text-light">
+      <animated.div
+        style={animation}
+        className="container text-center mt-5 text-light"
+      >
         <div className="row justify-content-center">
           <div className="col-md-8">
             <h1 className="mb-4 text-light" style={{ fontSize: "50px" }}>
@@ -51,7 +73,7 @@ const ForMe: React.FC = () => {
             </a>
           </div>
         </div>
-      </div>
+      </animated.div>
     </section>
   );
 };
