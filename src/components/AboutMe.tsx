@@ -67,7 +67,7 @@ const ForMe: React.FC = () => {
             <a
               href="/src/assets/Rafael Alves Zucarelli - CV (1).pdf"
               download
-              className="btn btn-md btn-custom-purple"
+              className="btn btn-md btn-custom-purple btn-outline-info"
             >
               BAIXAR CV
             </a>

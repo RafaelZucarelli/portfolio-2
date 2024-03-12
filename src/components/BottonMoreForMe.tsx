@@ -8,7 +8,7 @@ const BottonMoreForMe: React.FC = () => {
   return (
     <button
       onClick={scrollToAboutSection}
-      className="btn btn-lg btn-custom-purple"
+      className="btn btn-lg btn-custom-purple btn-outline-info"
     >
       Mais sobre mim
     </button>
