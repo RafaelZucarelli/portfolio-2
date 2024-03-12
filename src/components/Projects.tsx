@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
                 target="_blank"
               >
                 <img
-                  className="img-fluid"
+                  className="img-fluid rounded"
                   src="./src/assets/nlw-expert.gif"
                   alt="Gif da Aplicação de anotações"
                 />
@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
                 target="_blank"
               >
                 <img
-                  className="img-fluid"
+                  className="img-fluid rounded"
                   src="./src/assets/orcpessoal.gif"
                   alt="Gif da aplicação de orçamento pessoal"
                 />
@@ -73,7 +73,7 @@ const Projects: React.FC = () => {
                 target="_blank"
               >
                 <img
-                  className="img-fluid"
+                  className="img-fluid rounded"
                   src="./src/assets/calculadora.gif"
                   alt="Gif da aplicação calculadora"
                 />
