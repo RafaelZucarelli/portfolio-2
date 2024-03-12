@@ -4,82 +4,85 @@ const Projects: React.FC = () => {
   return (
     <section
       id="portfolio"
-      className="d-flex justify-content-center align-items-center vh-100"
+      className="py-5"
       style={{ backgroundColor: "black" }}
     >
-      <div className="container align-self-center">
-        <div className="row">
-          <div
-            className="col-md-12 text-center text-light text-uppercase text-justify"
-            style={{ lineHeight: "1.5" }}
-          >
-            <h1 className="mb-4 py-4 text-center" style={{ fontSize: "50px" }}>
-              <strong>
-                MEU <span style={{ color: "#8a2be2" }}>PORTFÓLIO</span>{" "}
-              </strong>
-            </h1>
+      <div className="container">
+        <h1 className="text-center text-light mb-5">
+          <strong>
+            MEU <span style={{ color: "#8a2be2" }}>PORTFÓLIO</span>
+          </strong>
+        </h1>
 
-            <div className="row justify-content-center">
-              <div className="project col-md-4 text-center">
-                <a
-                  href="https://github.com/RafaelZucarelli/nlw-expert"
-                  target="_blank"
-                >
-                  <div className="col-md-11 rounded shadow">
-                    <img
-                      className="img-fluid rounded"
-                      src="./src/assets/nlw-expert.gif"
-                      alt="Gif da Aplicação de anotações"
-                    />
-                  </div>
-                  <div className="project-info">
-                    <h4>Aplicação de anotações</h4>
-                    <p>
-                      Projeto feito com React, TypeScript, Tailwind e a
-                      SpeechRecognition API.
-                    </p>
-                    <p>🔗 Ver no GitHub Pages</p>
-                  </div>
+        <div className="row justify-content-center">
+          <div className="col-lg-4 col-md-6 mb-4">
+            <div className="rounded shadow">
+              <a
+                href="https://github.com/RafaelZucarelli/nlw-expert"
+                target="_blank"
+              >
+                <img
+                  className="img-fluid"
+                  src="./src/assets/nlw-expert.gif"
+                  alt="Gif da Aplicação de anotações"
+                />
+              </a>
+              <div className="project-info text-light text-center">
+                <h4>Aplicação de anotações</h4>
+                <p>
+                  Projeto feito com React, TypeScript, Tailwind e a
+                  SpeechRecognition API.
+                </p>
+                <a href="https://github.com/RafaelZucarelli/nlw-expert">
+                  🔗 Ver no GitHub Pages
                 </a>
               </div>
+            </div>
+          </div>
 
-              <div className="project col-md-4 text-center">
-                <a
-                  href="https://github.com/RafaelZucarelli/APP-ORCAMENTO-PESSOAL-ES6"
-                  target="_blank"
-                >
-                  <div className="col-md-11 rounded shadow">
-                    <img
-                      className="img-fluid rounded"
-                      src="./src/assets/orcpessoal.gif"
-                      alt="Gif da aplicação de orçamento pessoal"
-                    />
-                  </div>
-                  <div className="project-info">
-                    <h4>Aplicação de orçamento pessoal</h4>
-                    <p> projeto desenvolvido com ES6 e Bootstrap.</p>
-                    <p>🔗 ver no github pages</p>
-                  </div>
+          <div className="col-lg-4 col-md-6 mb-4">
+            <div className="rounded shadow">
+              <a
+                href="https://github.com/RafaelZucarelli/APP-ORCAMENTO-PESSOAL-ES6"
+                target="_blank"
+              >
+                <img
+                  className="img-fluid"
+                  src="./src/assets/orcpessoal.gif"
+                  alt="Gif da aplicação de orçamento pessoal"
+                />
+              </a>
+              <div className="project-info text-light text-center">
+                <h4>Aplicação de orçamento pessoal</h4>
+                <p>Projeto desenvolvido com ES6 e Bootstrap.</p>
+                <a href="https://rafaelzucarelli.github.io/APP-ORCAMENTO-PESSOAL-ES6/index.html">
+                  🔗 Acesse a aplicação clicando aqui
+                </a>
+                <br />
+                <a href="https://github.com/RafaelZucarelli/APP-ORCAMENTO-PESSOAL-ES6">
+                  🔗 Ver no GitHub Pages
                 </a>
               </div>
+            </div>
+          </div>
 
-              <div className="project col-md-4 text-center">
-                <a
-                  href="https://github.com/RafaelZucarelli/CALCULADORA-BASICA/blob/main/index.html"
-                  target="_blank"
-                >
-                  <div className="col-md-11 rounded shadow">
-                    <img
-                      className="img-fluid rounded"
-                      src="./src/assets/calculadora.gif"
-                      alt="Gif da aplicação calculadora"
-                    />
-                  </div>
-                  <div className="project-info">
-                    <h4>Aplicação de Calculadora</h4>
-                    <p> projeto desenvolvido com HTML, CSS E JAVASCRIPT.</p>
-                    <p>🔗 ver no github pages</p>
-                  </div>
+          <div className="col-lg-4 col-md-6 mb-4">
+            <div className="rounded shadow">
+              <a
+                href="https://github.com/RafaelZucarelli/CALCULADORA-BASICA/blob/main/index.html"
+                target="_blank"
+              >
+                <img
+                  className="img-fluid"
+                  src="./src/assets/calculadora.gif"
+                  alt="Gif da aplicação calculadora"
+                />
+              </a>
+              <div className="project-info text-light text-center">
+                <h4>Aplicação de Calculadora</h4>
+                <p>Projeto desenvolvido com HTML, CSS e JavaScript.</p>
+                <a href="https://github.com/RafaelZucarelli/CALCULADORA-BASICA/blob/main/index.html">
+                  🔗 Ver no GitHub Pages
                 </a>
               </div>
             </div>

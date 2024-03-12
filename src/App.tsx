@@ -46,7 +46,7 @@ const DigitarTexto = () => {
                 <div className="col-md-8">
                   <img
                     src="src/assets/images/perfil.jpg"
-                    className="img-fluid rounded-circle w-100"
+                    className="img-fluid rounded-circle w-100 img-fluid"
                     alt="perfil"
                   />
                 </div>

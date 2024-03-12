@@ -21,9 +21,9 @@ const Skills: React.FC = () => {
             className="col-md-12 text-center text-light text-uppercase text-justify"
             style={{ lineHeight: "1.5" }}
           >
-            <h4 className="mb-2 py-4 text-center mt-4">
+            <h3 className="mb-2 py-4 text-center mt-4">
               <strong>MINHAS HABILIDADES</strong>
-            </h4>
+            </h3>
             <div className="row skills-container text-center">
               <div className="col-md-4 mb-4">
                 <div className="technology">
