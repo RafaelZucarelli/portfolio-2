@@ -20,14 +20,14 @@ const Projects: React.FC = () => {
             </h1>
 
             <div className="row justify-content-center">
-              <div className="project col-md-3 text-center">
+              <div className="project col-md-4 text-center">
                 <a
                   href="https://github.com/RafaelZucarelli/nlw-expert"
                   target="_blank"
                 >
-                  <div className="col-md-12 rounded shadow">
+                  <div className="col-md-11 rounded shadow">
                     <img
-                      className="img-fluid"
+                      className="img-fluid rounded"
                       src="./src/assets/nlw-expert.gif"
                       alt="Gif da Aplicação de anotações"
                     />
@@ -43,14 +43,14 @@ const Projects: React.FC = () => {
                 </a>
               </div>
 
-              <div className="project col-md-3 text-center">
+              <div className="project col-md-4 text-center">
                 <a
                   href="https://github.com/RafaelZucarelli/APP-ORCAMENTO-PESSOAL-ES6"
                   target="_blank"
                 >
-                  <div className="col-md-12 rounded shadow">
+                  <div className="col-md-11 rounded shadow">
                     <img
-                      className="img-fluid"
+                      className="img-fluid rounded"
                       src="./src/assets/orcpessoal.gif"
                       alt="Gif da aplicação de orçamento pessoal"
                     />
@@ -63,14 +63,14 @@ const Projects: React.FC = () => {
                 </a>
               </div>
 
-              <div className="project col-md-3 text-center">
+              <div className="project col-md-4 text-center">
                 <a
                   href="https://github.com/RafaelZucarelli/CALCULADORA-BASICA/blob/main/index.html"
                   target="_blank"
                 >
-                  <div className="col-md-12 rounded shadow">
+                  <div className="col-md-11 rounded shadow">
                     <img
-                      className="img-fluid"
+                      className="img-fluid rounded"
                       src="./src/assets/calculadora.gif"
                       alt="Gif da aplicação calculadora"
                     />

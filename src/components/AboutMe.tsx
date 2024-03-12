@@ -43,7 +43,7 @@ const ForMe: React.FC = () => {
                 profundamente o vasto e intrigante mundo da programação. Decidi
                 transformar esse sonho em realidade, embarcando em uma jornada
                 de estudos dedicados ao Desenvolvimento Web:{" "}
-                <span>HTML, CSS, JavaScript e React</span>.
+                <span>HTML, CSS, JavaScript e ReactJS</span>.
               </strong>
             </p>
             <p className="lead  text-justify">

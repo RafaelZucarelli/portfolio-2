@@ -1,41 +1,30 @@
-/* global.css */
 body {
   background-image: url("./src/assets/images/background.jpg");
 }
 
 .btn-custom-purple {
   color: #fff;
-  background-color: rgba(162, 0, 255, 0.5); /* Cor roxa */
-  border-color: rgba(162, 0, 255, 0.5); /* Cor da borda roxa */
+  background-color: rgba(162, 0, 255, 0.5);
+  border-color: rgba(162, 0, 255, 0.5);
 }
 
 .btn-custom-purple:hover {
-  background-color: rgba(
-    162,
-    0,
-    255,
-    0.5
-  ); /* Cor roxa mais escura quando hover */
-  border-color: rgba(
-    162,
-    0,
-    255,
-    0.5
-  ); /* Cor da borda roxa mais escura quando hover */
+  background-color: rgba(162, 0, 255, 0.5);
+  border-color: rgba(162, 0, 255, 0.5);
 }
 
 .btn-outline-custom-purple {
-  color: rgba(162, 0, 255, 0.5); /* Cor roxa */
-  border-color: rgba(162, 0, 255, 0.5); /* Cor da borda roxa */
+  color: rgba(162, 0, 255, 0.5);
+  border-color: rgba(162, 0, 255, 0.5);
 }
 
 .btn-outline-custom-purple:hover {
-  background-color: #800080; /* Cor de fundo roxa quando hover */
-  border-color: #800080; /* Cor da borda roxa quando hover */
+  background-color: #800080;
+  border-color: #800080;
 }
 
 .text-custom-purple {
-  color: #800080; /* Cor roxa */
+  color: #800080;
 }
 .text-justify {
   text-align: justify !important;
@@ -47,21 +36,20 @@ body {
 
 .bullet {
   display: inline-block;
-  width: 30px; /* Largura do círculo */
-  height: 30px; /* Altura do círculo */
+  width: 30px;
+  height: 30px;
   background-color: rgba(162, 0, 255, 0.5);
   border-radius: 50%;
   text-align: center;
-  line-height: 30px; /* Centraliza o ícone verticalmente */
-  margin-right: 10px; /* Espaço entre o círculo e o texto */
+  line-height: 30px;
+  margin-right: 10px;
 }
 
 .icon-purple {
   color: white;
-  font-size: 18px; /* Tamanho do ícone */
+  font-size: 18px;
 }
 
-/* Estilo para ocultar a barra de rolagem horizontal */
 html,
 body {
   overflow-x: hidden;
